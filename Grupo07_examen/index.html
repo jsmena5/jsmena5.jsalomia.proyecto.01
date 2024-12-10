@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<!-- Proyecto Primer Parcial Integrantes: James Mena y Johan Alomia-->
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <!-- Meta Character Set: Define la codificación de caracteres como UTF-8 para soporte de caracteres especiales. -->
+    <meta charset="utf-8">
+
+    <!-- Meta para compatibilidad: Fuerza el uso del motor de renderizado más reciente en IE y permite usar Chrome Frame si está disponible. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Título del documento: Nombre que aparece en la pestaña del navegador. -->
+    <title>EstadosUnidos_Proyecto1Parcial</title>
+
+    <!-- Meta Description: Breve descripción de la página para motores de búsqueda. -->
+    <meta name="description" content="Blue One Page Creative HTML5 Template">
+
+    <!-- Meta Keywords: Palabras clave para SEO (no tan relevante hoy en día). -->
+    <meta name="keywords"
+        content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+
+    <!-- Meta Author: Indica el autor de la página. -->
+    <meta name="author" content="Themefisher">
+
+    <!-- Meta para dispositivos móviles: Configura el diseño para ser responsive. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tema meta: Información sobre el tema utilizado (personalizado). -->
+    <meta name="theme-name" content="blue-pro" />
+
+    <!-- Carga de fuentes desde Google Fonts. -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+
+    <!-- Carga de estilos y plugins CSS: -->
+    <!-- Íconos FontAwesome para gráficos vectoriales. -->
+    <link rel="stylesheet" href="plugins/font-awesome.min.css">
+    <!-- Íconos Ion Icons. -->
+    <link rel="stylesheet" href="plugins/ionicons.min.css">
+    <!-- Fancybox para ventanas emergentes modales. -->
+    <link rel="stylesheet" href="plugins/jquery.fancybox.css">
+    <!-- Estilos de Bootstrap para diseño responsivo. -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">-->
+    <!-- Estilos para carruseles (Owl Carousel). -->
+    <link rel="stylesheet" href="plugins/owl.carousel.css">
+    <!-- Estilos para el slider animado. -->
+    <link rel="stylesheet" href="plugins/slit-slider.css">
+    <!-- Estilos para animaciones CSS. -->
+    <link rel="stylesheet" href="plugins/animate.css">
+    <!-- Hoja de estilo principal. -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizer Script: Soporte para navegadores antiguos (detecta características de HTML5 y CSS3). -->
+    <script src="plugins/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body id="body">
+
+    <!-- preloader -->
+    <!-- <div id="preloader">
+				<div class="loder-box">
+					<div class="battery"></div>
+				</div>
+		</div> -->
+    <!-- end preloader -->
+
+    <!--
+        Fixed Navigation
+        ==================================== -->
+    <header id="navigation" class="fixed-top animated-header">
+        <div class="container">
+            <!-- Barra de navegación con Bootstrap. -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <!-- Logo con enlace al inicio de la página. -->
+                <a class="navbar-brand" href="#body">
+                    <img class="img-fluid" src="images/logo4.png" alt="">
+                </a>
+
+                <!-- Botón para colapsar/expandir el menú en pantallas pequeñas. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Contenido del menú de navegación. -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-center" id="nav">
+                        <!-- Elementos del menú con enlaces a secciones específicas mediante anchors. -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#body">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cultura">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#divisa">Conversion-De-Monedas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#social">Redes-Sociales</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--
+              End Fixed Navigation
+              ==================================== -->
+
+    <main class="site-content" role="main">
+
+        <!--
+        Home Slider
+        ==================================== -->
+
+        <section id="home-slider">
+            <!-- Contenedor principal del slider -->
+            <div id="slider" class="sl-slider-wrapper">
+
+                <!-- Elemento principal del slider -->
+                <div class="sl-slider">
+
+                    <!-- Primera diapositiva -->
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25"
+                        data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                        <!-- Superposición de máscara para efectos visuales -->
+                        <div class="mask-overly"></div>
+                        <!-- Fondo de la diapositiva -->
+                        <div class="bg-img slider-1">
+                            <!-- Contenido de la diapositiva -->
+                            <div class="slide-caption">
+                                <div class="caption-content">
+                                    <!-- Título animado -->
+                                    <h2 class="animated fadeInDown">
+                                        !!SEAN BIENVENIDOS A ESTADOS UNIDOS!!
+                                    </h2>
+                                    <!-- Descripción animada -->
+                                    <p class="animated fadeInDown">
+                                        Estados Unidos es un país
+                                        soberano constituido en una república federal constitucional
+                                        compuesta por cincuenta estados y un distrito federal.
+                                        Limita al norte con Canadá y al sur, con México. Su capital es Washington D. C.
+                                        y su ciudad más poblada, Nueva York.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segunda diapositiva -->
+                    <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10"
+                        data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                        <div class="mask-overly"></div>
+                        <!-- Fondo de la diapositiva -->
+                        <div class="bg-img slider-2"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2 class="animated fadeInDown">Conoce al Presidente Donald Trump</h2>
+                                <p class="animated fadeInDown">
+                                    Donald Trump, empresario y figura mediática, fue el 45.º presidente de los Estados
+                                    Unidos,
+                                    sirviendo de enero de 2017 a enero de 2021. Conocido por su estilo directo y
+                                    polémico,
+                                    centró su presidencia en políticas nacionalistas bajo el lema "Make America Great
+                                    Again".
+                                    Implementó reformas fiscales, renegoció acuerdos comerciales como el T-MEC,
+                                    endureció las
+                                    políticas de inmigración, y tomó una postura crítica frente a organismos
+                                    internacionales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercera diapositiva -->
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3"
+                        data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                        <div class="mask-overly"></div>
+                        <!-- Fondo de la diapositiva -->
+                        <div class="bg-img slider-3"></div>
+                        <div class="slide-caption">
+                            <div class="caption-content">
+                                <h2 class="animated fadeInDown">La Gran Capital de Estados Unidos</h2>
+                                <p class="animated fadeInDown">
+                                    La capital de los Estados Unidos es Washington, D.C., una ciudad fundada en 1790
+                                    como sede del gobierno
+                                    federal. Situada entre Maryland y Virginia, no pertenece a ningún estado, sino que
+                                    es un distrito
+                                    federal. Es conocida por ser el centro político del país y albergar importantes
+                                    instituciones como
+                                    la Casa Blanca, el Capitolio y la Corte Suprema.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /sl-slider -->
+
+                <!-- Flechas de navegación (solo visibles en pantallas medianas y grandes) -->
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a href="javascript:;" class="sl-prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                    </a>
+                    <a href="javascript:;" class="sl-next">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                    </a>
+                </nav>
+
+                <!-- Puntos de navegación (solo visibles en pantallas pequeñas) -->
+                <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+                    <span class="nav-dot-current"></span>
+                    <span></span>
+                    <span></span>
+                </nav>
+
+            </div><!-- /slider-wrapper -->
+        </section>
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+
+
+        <section id="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2>La patria esta con nosotros</h2>
+                            <p>"Sostenemos estas verdades como evidentes, que todos los hombres son creados iguales."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>La importancia de estados unidos</h4>
+                        <p>Es líder en tecnología y avances científicos, desarrollando productos e investigaciones que
+                            han transformado
+                            industrias y mejorado la calidad de vida en todo el mundo.</p>
+                        <ul class="list-nav">
+                            <li><i class="ion-ios-checkmark-empty"></i>Sistema Político: Es una república federal con un
+                                sistema democrático
+                                basado en tres poderes: ejecutivo, legislativo y judicial.</li>
+                            <li><i class="ion-ios-checkmark-empty"></i>Economía Potente: Es la economía más grande del
+                                mundo, destacándose en tecnología,
+                                finanzas, industria, y servicios.</li>
+                            <li><i class="ion-ios-checkmark-empty"></i>Territorio Extenso y Diverso: Con 50 estados, su
+                                geografía abarca desde desiertos y
+                                montañas hasta costas y grandes llanuras.</li>
+                            <li><i class="ion-ios-checkmark-empty"></i>Poder Militar: Posee una de las fuerzas armadas
+                                más grandes y avanzadas del mundo,
+                                con una amplia red de bases internacionales.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <img class="img-fluid" src="images/usa.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- Historia-Formacion Seccion-->
+        <section id="historia">
+            <div class="container">
+                <div class="row">
+                    <!-- Título de la sección -->
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2>HISTORIA Y FORMACIÓN DE LOS ESTADOS UNIDOS</h2>
+                            <p>Una nación construida sobre la libertad, la igualdad y la búsqueda de oportunidades. <br>
+                                Descubre los hitos que definieron su desarrollo y transformación.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la Declaración de Independencia -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-document-text"></i>
+                            </div>
+                            <h3>Declaración de Independencia</h3>
+                            <p>El 4 de julio de 1776, las 13 colonias declararon su independencia del Reino Unido,
+                                marcando el nacimiento de una nueva nación.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la Constitución de los EE. UU. -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-book-outline"></i>
+                            </div>
+                            <h3>Constitución</h3>
+                            <p>Ratificada en 1787, la Constitución de los Estados Unidos estableció el marco para un
+                                gobierno federal basado en principios democráticos.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la Guerra Civil -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-flame-outline"></i>
+                            </div>
+                            <h3>Guerra Civil</h3>
+                            <p>Entre 1861 y 1865, Estados Unidos enfrentó un conflicto interno sobre la esclavitud y los
+                                derechos estatales, que culminó en la abolición de la esclavitud.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la expansión territorial -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center" data-wow-delay="0.9s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-earth"></i>
+                            </div>
+                            <h3>Expansión Territorial</h3>
+                            <p>Con la Compra de Luisiana en 1803 y otras adquisiciones, Estados Unidos extendió sus
+                                fronteras desde el Atlántico hasta el Pacífico.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la Revolución Industrial -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-gear-a"></i>
+                            </div>
+                            <h3>Revolución Industrial</h3>
+                            <p>A finales del siglo XIX, Estados Unidos se convirtió en una potencia industrial,
+                                liderando innovaciones en tecnología y manufactura.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre las Guerras Mundiales -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-plane"></i>
+                            </div>
+                            <h3>Guerras Mundiales</h3>
+                            <p>La participación en las dos Guerras Mundiales consolidó a Estados Unidos como una
+                                superpotencia económica y militar global.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre el Movimiento por los Derechos Civiles -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-person-stalker"></i>
+                            </div>
+                            <h3>Derechos Civiles</h3>
+                            <p>Durante las décadas de 1950 y 1960, líderes como Martin Luther King Jr. lucharon por la
+                                igualdad racial y la justicia social.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bloque sobre la Era Espacial -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-android-globe"></i>
+                            </div>
+                            <h3>Era Espacial</h3>
+                            <p>En 1969, los Estados Unidos lograron un hito histórico al llevar al hombre a la Luna,
+                                marcando un avance en la exploración espacial.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- final de la historia seccion -->
+        <!-- Sección con Fondo de Video -->
+        <section class="video-bg">
+            <!-- Superposición oscura para mejorar el contraste -->
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- Contenido centrado -->
+                    <div class="mx-auto col-md-8">
+                        <!-- Título de la sección -->
+                        <div class="section-title text-center white">
+                            <h2>VIVE TU MISMO LA EXPERENCIA DE SU MARAVILLOSA HISTORIA</h2>
+                            <p>Explora los momentos clave y proyectos históricos que han definido el desarrollo de los
+                                Estados Unidos.</p>
+                        </div>
+                        <!-- Botón de reproducción de video -->
+                        <div class="modal-section text-center">
+                            <a href="#" data-toggle="modal" data-target="#video-modal" class="video-popup-button">
+                                <!-- Ícono de reproducción -->
+                                <i class="ion-play"></i>
+                            </a>
+                            <!-- Modal para mostrar el video -->
+                            <div class="modal fade" id="video-modal" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <!-- Botón para cerrar el modal -->
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <!-- Cuerpo del modal con el video -->
+                                        <div class="modal-body">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <!-- Video sobre la historia de los Estados Unidos -->
+                                                <iframe width="560" height="315"
+                                                    src="https://www.youtube.com/embed/4pK_KGB4KmA?si=fT6Z-1NpSqkW2MNs"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Texto adicional -->
+                        <p>Desde su independencia en 1776 hasta su rol como líder mundial, los Estados Unidos han tenido
+                            un impacto significativo en la historia global.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Seccion de cultura-->
+        <section id="cultura">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <!-- Título de la sección, destacando proyectos relacionados con la cultura de EE. UU. -->
+                            <h2>CULTURA DE ESTADOS UNIDOS</h2>
+                            <p>"El Sueño Americano es ese sueño de una tierra en la que la vida debería ser mejor,
+                                más rica y más plena para todos, con oportunidades para cada uno según su habilidad o
+                                logro."</p>
+                        </div>
+                        <ul class="portfolio-filter text-center">
+                            <!-- Filtro de proyectos: -->
+                            <li><a href="#" data-filter="*" class="active">All</a></li>
+                            <li><a href="#" data-filter=".photoshop">Día de la Independencia de EE. UU</a></li>
+                            <li><a href="#" data-filter=".responsive">Día de Acción de Gracias</a></li>
+                            <li><a href="#" data-filter=".wordpress">Día del Trabajo </a></li>
+                            <li><a href="#" data-filter=".illustrator">Halloween</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Proyectos relacionados con la cultura estadounidense, en este caso se incluyen imágenes de festividades y cultura -->
+                <div class="row project-wrapper">
+                    <!-- Día de la Independencia de EE. UU. (4 de julio) -->
+                    <div class="col-sm-6 col-md-4 photoshop">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-1.jpg" class="img-fluid w-100"
+                                alt="Celebración del Día de la Independencia de EE. UU. con fuegos artificiales y desfiles.">
+                            <figcaption class="mask">
+                                <h3>Independence Day</h3>
+                                <p>Esta festividad marca la declaración de independencia de los Estados Unidos,
+                                    es un símbolo de libertad y unidad. Las celebraciones incluyen desfiles, fuegos
+                                    artificiales y festivales.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Independence Day" data-fancybox-group="works"
+                                        href="images/portfolio/item-1.jpg"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Día de Acción de Gracias (Thanksgiving, cuarto jueves de noviembre) -->
+                    <div class="col-sm-6 col-md-4 responsive">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-2.jpg" class="img-fluid w-100"
+                                alt="Cena tradicional de Acción de Gracias con pavo y puré de papas.">
+                            <figcaption class="mask">
+                                <h3>Thanksgiving</h3>
+                                <p>Esta festividad se enfoca en la gratitud por las bendiciones del año, con cenas
+                                    familiares y actos de caridad.
+                                    Es un momento importante para la unión familiar.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Thanksgiving Dinner" href="images/portfolio/item-2.jpg"
+                                        data-fancybox-group="works"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Día del Trabajo (Labor Day, primer lunes de septiembre) -->
+                    <div class="col-sm-6 col-md-4 wordpress">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-3.jpg" class="img-fluid w-100"
+                                alt="Desfile del Día del Trabajo con honores a los trabajadores estadounidenses.">
+                            <figcaption class="mask">
+                                <h3>Labor Day</h3>
+                                <p> Se celebra el esfuerzo y la dedicación de los trabajadores estadounidenses. Muchas
+                                    personas
+                                    disfrutan de un día libre con actividades al aire libre o desfiles.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Labor Day Parade" data-fancybox-group="works"
+                                        href="images/portfolio/item-3.jpg"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Halloween (31 de octubre) -->
+                    <div class="col-sm-6 col-md-4 illustrator">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-4.jpg" class="img-fluid w-100"
+                                alt="Fiesta de Halloween con disfraces y decoración espeluznante.">
+                            <figcaption class="mask">
+                                <h3>Halloween</h3>
+                                <p>Halloween es una fiesta llena de disfraces, decoraciones espeluznantes y,
+                                    especialmente, una oportunidad para que los niños hagan "truco o trato".
+                                    Representa la cultura popular estadounidense que disfruta de lo macabro y lo
+                                    divertido.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Halloween Party" data-fancybox-group="works"
+                                        href="images/portfolio/item-4.jpg"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Día de Martin Luther King Jr. (tercer lunes de enero) -->
+                    <div class="col-sm-6 col-md-4 photoshop">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-5.jpg" class="img-fluid w-100"
+                                alt="Marcha del Día de Martin Luther King Jr. para conmemorar su legado.">
+                            <figcaption class="mask">
+                                <h3>Martin Luther King Jr. Day</h3>
+                                <p>Un día para recordar y honrar la vida y el legado de Martin Luther King Jr., defensor
+                                    de los derechos civiles.
+                                    Es una jornada de reflexión sobre la igualdad y la justicia en Estados Unidos.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="MLK Day March" data-fancybox-group="works"
+                                        href="images/portfolio/item-5.jpg"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Día de Navidad (25 de diciembre) -->
+                    <div class="col-sm-6 col-md-4 illustrator">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio/item-6.jpg" class="img-fluid w-100"
+                                alt="Celebración navideña con árbol de Navidad y luces.">
+                            <figcaption class="mask">
+                                <h3>Christmas</h3>
+                                <p>La Navidad es una de las festividades más importantes para muchas familias en Estados
+                                    Unidos. Está llena de tradiciones como el intercambio de regalos,
+                                    la decoración de árboles de Navidad y celebraciones familiares.</p>
+                            </figcaption>
+                            <ul class="external">
+                                <li><a class="fancybox" title="Christmas Celebration" data-fancybox-group="works"
+                                        href="images/portfolio/item-6.jpg"><i class="ion-ios-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- final de la cultura seccion-->
+
+        <!-- Testimonial section -->
+        <!-- Testimonial section -->
+        <section id="testimonials" class="parallax">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="section-title text-center white ">
+                            <h2>Opiniones de los personajes mas celebres de Estados Unidos</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div id="testimonial" class="">
+                            <!-- Testimonial 1 -->
+                            <div class="testimonial-item text-center">
+                                <img class="img-fluid" src="images/member-1.jpg" alt="Nuestros Clientes">
+                                <div class="clearfix">
+                                    <span>Barack Obama</span>
+                                    <p>"En los Estados Unidos, nuestra diversidad es nuestra mayor fortaleza. Somos una
+                                        nación de inmigrantes, y ese espíritu de inclusión e innovación es lo que ha
+                                        convertido a este país en un faro de esperanza para las personas de todo el
+                                        mundo."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 2 -->
+                            <div class="testimonial-item text-center">
+                                <img class="img-fluid" src="images/member-2.jpg" alt="Nuestros Clientes">
+                                <div class="clearfix">
+                                    <span>Oprah Winfrey</span>
+                                    <p>"Los Estados Unidos son la tierra de las oportunidades. Yo venía de la nada, y
+                                        pude construir mi propio imperio a través del trabajo duro y la determinación.
+                                        América es un lugar donde los sueños se hacen realidad."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 3 -->
+                            <div class="testimonial-item text-center">
+                                <img class="img-fluid" src="images/member-3.jpg" alt="Nuestros Clientes">
+                                <div class="clearfix">
+                                    <span>Martin Luther King Jr.</span>
+                                    <p>"Tengo un sueño de que un día esta nación se levantará y vivirá el verdadero
+                                        significado de su credo: 'Sostenemos que estas verdades son evidentes, que todos
+                                        los hombres son creados iguales.'"</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="testimonial-item text-center">
+                                <img class="img-fluid" src="images/member-4.jpg" alt="Nuestros Clientes">
+                                <div class="clearfix">
+                                    <span>Thomas Edison</span>
+                                    <p>"Descubro lo que el mundo necesita. Luego, voy adelante e intento inventarlo. En
+                                        los Estados Unidos, siempre hay una oportunidad para la innovación, para crear
+                                        algo nuevo. América es la tierra de las ideas y el progreso."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 5 -->
+                            <div class="testimonial-item text-center">
+                                <img class="img-fluid" src="images/member-5.jpg" alt="Nuestros Clientes">
+                                <div class="clearfix">
+                                    <span>Walt Disney</span>
+                                    <p>"Los Estados Unidos siempre han sido una tierra de posibilidades. Fue aquí donde
+                                        pude construir un sueño desde cero. América me enseñó a no dejar de soñar y a
+                                        siempre seguir adelante."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end Testimonial section -->
+        <!-- Divisas section -->
+        <section id="divisa">
+            <div class="container">
+
+
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2>DIVISAS</h2>
+                    </div>
+                </div>
+                <div class="container" id="content">
+
+                    <h1 style="text-align: center;">Conversor de divisas</h1>
+
+                    <div class="form-group">
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <label for="toCurrency">Cantidad:</label>
+                                <input type="number" class="form-control" id="amount" placeholder="$ Cantidad" />
+                            </div>
+
+                            <div class="col-lg-4">
+                                <label for="toCurrency">Moneda de origen:</label>
+                                <select id="fromCurrency" class="form-control fa">
+                                    <option value="USD">&#xf155; USD - Dólar</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <label for="toCurrency">Moneda de destino:</label>
+                                <select id="toCurrency" class="form-control fa">
+                                    <option value="RUB">&#xf158; RUB- Rublo ruso</option>
+                                    <option value="EUR">&#xf153; EUR - Alemania</option>
+                                    <option value="EUR">&#xf153; EUR - Paises Bajos</option>
+                                    <option value="ARS">&#xf155; ARS - Peso argentino</option>
+                                    <option value="COP">&#xf155; COP- Peso colombiano</option>
+                                    <option value="EUR">&#xf153; EUR - Italia</option>
+                                    <option value="BRL">R&#xf155; BRL - Real brasilero</option>
+                                    <option value="CRC">₡ CRC - Colón costarricense</option>
+                                    <option value="UYU">&#xf155; UYU - Peso uruguayo</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <h2 style="text-align: center;">Resultado: </h2>
+                        <h3 style="text-align: center;" id="result"></h3>
+                    </div>
+
+                    
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <button id="borrar" class="btn btn-warning">ELIMINAR CONVERSIÓN</button>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- end Contact section -->
+
+        <!-- Social section -->
+        <section id="social" class="parallax">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <div class="section-title white text-center white ">
+                                <h2>Siguenos en nuestras redes sociales</h2>
+                                <p>Esta pagina web demiestra el valor patriotico de estados unidos</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <ul class="social-button">
+                                <li class="wow animated zoomIn"><a
+                                        href="https://www.facebook.com/profile.php?id=100038712126359"><i
+                                            class="ion-social-facebook"></i></a></li>
+                                <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i
+                                            class="ion-social-twitter"></i></a></li>
+                                <li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i
+                                            class="ion-social-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Social section -->
+
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Sección de información de la empresa -->
+                <div class="col-md-4">
+                    <h4>
+                        <a href="">
+                            <!-- Logo de la empresa -->
+                            <img class="img-responsive" src="images/logo4.png" alt="Logo de la empresa">
+                        </a>
+                    </h4>
+                    <p>
+                        <!-- Breve descripción sobre el proyecto -->
+                        En <strong>ESTADOS UNIDOS</strong>, COn este proyecto queremos reflejar la cultura y la historia
+                        de estados unidos¡Trabajando en conjunto para llevar esta pagina al siguiente nivel!
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Integrantes</h4>
+                    <ul>
+                        <li>Correo de los participantes involucrados en el proyecto</li>
+                        <li><a href="#">jsmena5@espe.edu.ec</a></li>
+                        <li><a href="#">jalomia@espe.edu.ec</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sección de suscripción al boletín de noticias -->
+                <div class="col-md-4">
+                    <h4>Suscripción al boletín</h4>
+                    <p>
+                        Estas tan interesado en esta pagina entonces cuando ya estes suscrito recibiras promociones de
+                        estados unidos
+                    </p>
+                    <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+                        <div class="input-field">
+                            <input type="email" class="subscribe form-control"
+                                placeholder="Introduce tu correo electrónico...">
+                            <button type="submit" class="submit-icon">
+                                <i class="fa fa-paper-plane fa-lg"></i> <!-- Icono de enviar -->
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pie de página inferior -->
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Información de derechos de autor -->
+                    <p class="text-center text-lg-left">
+                        COPYRIGHT © 2024, Estados Unidos Grupo07 Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Essential jQuery Plugins
+		================================================== -->
+    <!-- jQuery principal -->
+    <script src="plugins/jquery-1.11.1.min.js"></script>
+
+    <!-- Twitter Bootstrap (para estilos y componentes de interfaz) -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Single Page Nav (navegación de una sola página) -->
+    <script src="plugins/jquery.singlePageNav.min.js"></script>
+
+    <!-- jquery.fancybox.pack (para efectos de galería de imágenes o contenido) -->
+    <script src="plugins/jquery.fancybox.pack.js"></script>
+
+    <!-- Owl Carousel (para crear carruseles de imágenes o contenido) -->
+    <script src="plugins/owl.carousel.min.js"></script>
+
+    <!-- jquery easing (para animaciones suaves) -->
+    <script src="plugins/isotope.pkgd.min.js"></script>
+    <script src="plugins/jquery.easing.min.js"></script>
+
+    <!-- Slider en pantalla completa (para crear sliders a pantalla completa) -->
+    <script src="plugins/jquery.slitslider.js"></script>
+    <script src="plugins/jquery.ba-cond.min.js"></script>
+
+    <!-- Animación al hacer scroll (efectos visuales al hacer scroll en la página) -->
+    <script src="plugins/wow.min.js"></script>
+
+    <!-- Funciones personalizadas -->
+    <script src="plugins/jquery.form.min.js"></script>
+    <script src="plugins/jquery.validate.min.js"></script>
+
+
+    <!-- Archivo de script principal -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
